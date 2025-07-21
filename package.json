@@ -1,0 +1,33 @@
+{
+  "name": "ai-cli",
+  "version": "1.0.0",
+  "description": "AI 모델들과 통신하는 CLI 도구",
+  "main": "index.js",
+  "bin": {
+    "instance": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "gemini",
+    "claude",
+    "codex"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6",
+    "dotenv": "^16.3.1",
+    "ora": "^5.4.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
