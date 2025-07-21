@@ -9,7 +9,7 @@ class BaseProvider {
 
   validateAPIKey() {
     if (!this.apiKey) {
-      throw new Error('API 키가 설정되지 않았습니다. ai-cli setup 명령어로 설정해주세요.');
+      throw new Error('API 키가 설정되지 않았습니다. instance setup 명령어로 설정해주세요.');
     }
   }
 }

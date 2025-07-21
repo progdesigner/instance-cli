@@ -1,5 +1,5 @@
 {
-  "name": "ai-cli",
+  "name": "instance-cli",
   "version": "1.0.0",
   "description": "AI 모델들과 통신하는 CLI 도구",
   "main": "index.js",
